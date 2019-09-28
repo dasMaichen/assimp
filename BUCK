@@ -3,6 +3,7 @@ cxx_library(
   header_namespace = 'assimp',
   exported_headers = subdir_glob([
     ('include/assimp','**/*.h'),
+    ('include/assimp','**/*.inl'),
   ]),
   visibility = ['PUBLIC']
 )
