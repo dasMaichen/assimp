@@ -1,0 +1,11 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/assimp/4.1.0
+exec_prefix=/home/linuxbrew/.linuxbrew/Cellar/assimp/4.1.0/
+libdir=/home/linuxbrew/.linuxbrew/Cellar/assimp/4.1.0/lib
+includedir=/home/linuxbrew/.linuxbrew/Cellar/assimp/4.1.0/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 4.1.0
+Libs: -L${libdir} -lassimp
+Libs.private: -lstdc++ -lz
+Cflags: -I${includedir}
