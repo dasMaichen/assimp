@@ -1,6 +1,8 @@
-cxx_library(
+prebuilt_cxx_library(
   name = 'assimp',
   header_namespace = 'assimp',
+  soname = ' 	libassimp.so',
+  shared_lib = 'lib/libassimp.so',
   exported_headers = subdir_glob([
     ('include/assimp','**/*.h'),
     ('include/assimp','**/*.inl'),
